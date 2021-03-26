@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\testproject\\kalbe\\Server\\Server.csproj": {}
+  },
+  "projects": {
+    "D:\\testproject\\kalbe\\Server\\invoice\\Website.msbuildproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\testproject\\kalbe\\Server\\invoice\\Website.msbuildproj",
+        "projectName": "kalbe",
+        "projectPath": "D:\\testproject\\kalbe\\Server\\invoice\\Website.msbuildproj",
+        "packagesPath": "C:\\Users\\muhammad.hermawan\\.nuget\\packages\\",
+        "outputPath": "D:\\testproject\\kalbe\\Server\\invoice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muhammad.hermawan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\testproject\\kalbe\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\testproject\\kalbe\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "D:\\testproject\\kalbe\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\muhammad.hermawan\\.nuget\\packages\\",
+        "outputPath": "D:\\testproject\\kalbe\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\muhammad.hermawan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\testproject\\kalbe\\Server\\invoice\\Website.msbuildproj": {
+                "projectPath": "D:\\testproject\\kalbe\\Server\\invoice\\Website.msbuildproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Peachpie.AspNetCore.Web": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+D:\testproject\kalbe\Server\invoice\bin\Debug\netstandard2.1\kalbe.deps.json
+D:\testproject\kalbe\Server\invoice\bin\Debug\netstandard2.1\kalbe.dll
+D:\testproject\kalbe\Server\invoice\bin\Debug\netstandard2.1\kalbe.pdb
+D:\testproject\kalbe\Server\invoice\obj\Debug\netstandard2.1\Website.msbuildprojAssemblyReference.cache
+D:\testproject\kalbe\Server\invoice\obj\Debug\netstandard2.1\Website.msbuildproj.CoreCompileInputs.cache
+D:\testproject\kalbe\Server\invoice\obj\Debug\netstandard2.1\kalbe.dll
+D:\testproject\kalbe\Server\invoice\obj\Debug\netstandard2.1\kalbe.pdb
